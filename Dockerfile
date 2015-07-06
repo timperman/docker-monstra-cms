@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm monstra.zip && \
     a2enmod rewrite
 
-VOLUME /var/www/html/storage
+VOLUME /var/www/html
 
 ADD php.ini /usr/local/etc/php
 
